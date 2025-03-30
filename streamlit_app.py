@@ -5,8 +5,9 @@ import pandas as pd
 
 
 # Load the trained model
-with open('C:/Users/athar/OneDrive/Desktop/ipl score predictor/ipl_win_predictor.pkl', 'rb') as f:
+with open('ipl_win_predictor.pkl', 'rb') as f:
     model = pickle.load(f)
+
 
 # Set up the Streamlit app
 st.title("IPL Win Predictor")
